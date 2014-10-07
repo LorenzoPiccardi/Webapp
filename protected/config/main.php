@@ -8,7 +8,7 @@
 return array(
 
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
-	'name'=>'My Web Application',
+	'name'=>'WebApp',
 
 	'aliases' => array(
 		'bootstrap' => realpath(__DIR__ . '/../extensions/bootstrap'), // change this if necessary

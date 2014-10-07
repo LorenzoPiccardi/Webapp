@@ -16,12 +16,6 @@ $this->pageTitle=Yii::app()->name;
 	),
 )); ?>
 
-<?php /*$this->widget('bootstrap.widgets.TbButton', array(
-    'label'=>'Primary',
-    'type'=>'primary', // null, 'primary', 'info', 'success', 'warning', 'danger' or 'inverse'
-    'size'=>'large', // null, 'large', 'small' or 'mini'
-)); */?>
-
 <p class="note">Fields with <span class="required">*</span> are required.</p>
 
 	<?php echo $form->errorSummary($model); ?>

@@ -31,7 +31,6 @@
 		<?php $this->widget('zii.widgets.CMenu',array(
 			'items'=>array(
 				array('label'=>'Home', 'url'=>array('/site/index')),
-				array('label'=>'About', 'url'=>array('/site/page', 'view'=>'about')),
 			),
 		)); ?>
 	</div><!-- mainmenu -->
@@ -44,12 +43,6 @@
 	<?php echo $content; ?>
 
 	<div class="clear"></div>
-
-	<div id="footer">
-		Copyright &copy; <?php echo date('Y'); ?> by My Company.<br/>
-		All Rights Reserved.<br/>
-		<?php echo Yii::powered(); ?>
-	</div><!-- footer -->
 </div><!-- page -->
 
 </body>
